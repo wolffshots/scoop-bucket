@@ -1,0 +1,30 @@
+{
+    "version": "0.15.0",
+    "description": "Terminal UI for tracking Future Forex arbitrage cycle returns",
+    "homepage": "https://github.com/wolffshots/fftui",
+    "license": "MIT",
+    "notes": [
+        "Create your config file (%AppData%\\fftui\\config.env) with:",
+        "  fftui --init-config",
+        "Then edit it with your credentials. See the README for all keys:",
+        "  https://github.com/wolffshots/fftui#credentials"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wolffshots/fftui/releases/download/v0.15.0/fftui_v0.15.0_windows_amd64.exe#/fftui.exe",
+            "hash": "e4cf6f452d61e379144c76d2e08705ec882f4334f01fd1bfcb365aaca1510055"
+        }
+    },
+    "bin": "fftui.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wolffshots/fftui/releases/download/v$version/fftui_v$version_windows_amd64.exe#/fftui.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

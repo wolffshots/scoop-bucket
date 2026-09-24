@@ -33,6 +33,32 @@ scoop update
 scoop update patreon-posts
 ```
 
+## fftui
+
+A terminal UI for tracking Future Forex arbitrage cycle returns.
+
+### Install
+
+```powershell
+scoop bucket add wolffshots https://github.com/wolffshots/scoop-bucket
+scoop install wolffshots/fftui
+```
+
+This installs the prebuilt x64 release binary. fftui has no ARM64 Windows build.
+
+### Configuration
+
+Create the config file (`%AppData%\fftui\config.env`) with `fftui --init-config`,
+then fill in your credentials. See the
+[fftui repository](https://github.com/wolffshots/fftui#credentials) for every key.
+
+### Upgrade
+
+```powershell
+scoop update
+scoop update fftui
+```
+
 ## How updates work
 
 Unlike the Homebrew tap, nothing here is edited by hand on release. The
