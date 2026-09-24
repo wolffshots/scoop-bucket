@@ -1,5 +1,5 @@
 {
-    "version": "0.0.0",
+    "version": "0.1.1",
     "description": "Terminal UI for browsing Patreon posts, with SQLite caching and YouTube link extraction",
     "homepage": "https://github.com/wolffshots/patreon-posts",
     "license": "MIT",
@@ -9,12 +9,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wolffshots/patreon-posts/releases/download/v0.0.0/patreon-posts_v0.0.0_windows_amd64.exe#/patreon-posts.exe",
-            "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+            "url": "https://github.com/wolffshots/patreon-posts/releases/download/v0.1.1/patreon-posts_v0.1.1_windows_amd64.exe#/patreon-posts.exe",
+            "hash": "a4d22233e75698dfbc7e418a116704f9ef1093b325894d9c05ed14eaf1beb150"
         },
         "arm64": {
-            "url": "https://github.com/wolffshots/patreon-posts/releases/download/v0.0.0/patreon-posts_v0.0.0_windows_arm64.exe#/patreon-posts.exe",
-            "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+            "url": "https://github.com/wolffshots/patreon-posts/releases/download/v0.1.1/patreon-posts_v0.1.1_windows_arm64.exe#/patreon-posts.exe",
+            "hash": "4bab0872092638f432ef763ed2a8334df3ee1caf65b66d04efbe6cbbdc883e38"
         }
     },
     "bin": "patreon-posts.exe",
