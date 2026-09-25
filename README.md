@@ -59,6 +59,34 @@ scoop update
 scoop update fftui
 ```
 
+## clusage
+
+A terminal UI for watching your Claude Code rate limit windows.
+
+### Install
+
+```powershell
+scoop bucket add wolffshots https://github.com/wolffshots/scoop-bucket
+scoop install wolffshots/clusage
+```
+
+This installs the prebuilt x64 release binary. clusage has no ARM64 Windows build.
+
+### Configuration
+
+Set `source` in `%USERPROFILE%\.config\clusage\config.json`. The status line
+source is recommended; see the
+[clusage repository](https://github.com/wolffshots/clusage#setup) for every
+source and key. The guard rail hook (`clusage hook install`) is not supported on
+Windows yet.
+
+### Upgrade
+
+```powershell
+scoop update
+scoop update clusage
+```
+
 ## How updates work
 
 Unlike the Homebrew tap, nothing here is edited by hand on release. The
