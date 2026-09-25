@@ -1,5 +1,5 @@
 {
-    "version": "2.2.2",
+    "version": "2.3.0",
     "description": "Terminal UI for watching your Claude Code rate limit windows",
     "homepage": "https://github.com/wolffshots/clusage",
     "license": "MIT",
@@ -7,13 +7,13 @@
         "Pick a source and set \"source\" in %USERPROFILE%\\.config\\clusage\\config.json.",
         "The status line source is recommended. Add this to %USERPROFILE%\\.claude\\settings.json:",
         "  \"statusLine\": { \"type\": \"command\", \"command\": \"clusage statusline\" }",
-        "The guard rail hook (clusage hook install) is not supported on Windows yet.",
+        "To pause Claude Code tool calls near your limits, register the guard rail hook: clusage hook install",
         "See https://github.com/wolffshots/clusage#setup"
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wolffshots/clusage/releases/download/v2.2.2/clusage_v2.2.2_windows_amd64.exe#/clusage.exe",
-            "hash": "ac7949af044430de2c6bc8284651aa9242ad9cb5bc808733267c70e1cde61c77"
+            "url": "https://github.com/wolffshots/clusage/releases/download/v2.3.0/clusage_v2.3.0_windows_amd64.exe#/clusage.exe",
+            "hash": "29a60c75a6bce2d12b3f29c810e7232c1404882b9e265ce930c0b6a4c2069914"
         }
     },
     "bin": "clusage.exe",
