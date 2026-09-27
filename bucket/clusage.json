@@ -1,5 +1,5 @@
 {
-    "version": "2.4.0",
+    "version": "2.5.0",
     "description": "Terminal UI for watching your Claude Code rate limit windows",
     "homepage": "https://github.com/wolffshots/clusage",
     "license": "MIT",
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wolffshots/clusage/releases/download/v2.4.0/clusage_v2.4.0_windows_amd64.exe#/clusage.exe",
-            "hash": "b7f15e5faff2a2f88131feeabaf322b1cad0965ed4112f9ed8d7ca07475576cb"
+            "url": "https://github.com/wolffshots/clusage/releases/download/v2.5.0/clusage_v2.5.0_windows_amd64.exe#/clusage.exe",
+            "hash": "2b1cb3a1b7142107ce47b41d18a93b73bd278c29cca88857e4d38f475f9c0151"
         }
     },
     "bin": "clusage.exe",
