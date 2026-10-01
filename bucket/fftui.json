@@ -1,5 +1,5 @@
 {
-    "version": "0.16.1",
+    "version": "0.16.2",
     "description": "Terminal UI for tracking Future Forex arbitrage cycle returns",
     "homepage": "https://github.com/wolffshots/fftui",
     "license": "MIT",
@@ -11,8 +11,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wolffshots/fftui/releases/download/v0.16.1/fftui_v0.16.1_windows_amd64.exe#/fftui.exe",
-            "hash": "338ab49283eb11bcd13bbe3f1afa0848ff1241116e37c7ea82f9b38e069c5a37"
+            "url": "https://github.com/wolffshots/fftui/releases/download/v0.16.2/fftui_v0.16.2_windows_amd64.exe#/fftui.exe",
+            "hash": "3c2fd902f75c170f385c0a9d1173d0e591c6a481959aebe0005aaaae3bcd4061"
         }
     },
     "bin": "fftui.exe",
