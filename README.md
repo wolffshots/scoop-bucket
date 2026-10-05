@@ -87,6 +87,33 @@ scoop update
 scoop update clusage
 ```
 
+## ndcli
+
+A command-line client for the NoteDiscovery REST API.
+
+### Install
+
+```powershell
+scoop bucket add wolffshots https://github.com/wolffshots/scoop-bucket
+scoop install wolffshots/ndcli
+```
+
+This installs the prebuilt x64 release binary. ndcli has no ARM64 Windows build.
+
+### Configuration
+
+Set `NOTEDISCOVERY_URL` to the base URL of your NoteDiscovery server. The
+default is `http://localhost:8000`. See the
+[ndcli repository](https://github.com/wolffshots/ndcli#configuration) for
+every setting and command.
+
+### Upgrade
+
+```powershell
+scoop update
+scoop update ndcli
+```
+
 ## How updates work
 
 Unlike the Homebrew tap, nothing here is edited by hand on release. The

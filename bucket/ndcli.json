@@ -1,0 +1,31 @@
+{
+    "version": "0.1.0",
+    "description": "Command-line client for the NoteDiscovery REST API",
+    "homepage": "https://github.com/wolffshots/ndcli",
+    "license": "MIT",
+    "notes": [
+        "Set NOTEDISCOVERY_URL to the base URL of your NoteDiscovery server.",
+        "The default is http://localhost:8000. Then check the connection with:",
+        "  ndcli health",
+        "See the README for all commands:",
+        "  https://github.com/wolffshots/ndcli#commands"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wolffshots/ndcli/releases/download/v0.1.0/ndcli_v0.1.0_windows_amd64.exe#/ndcli.exe",
+            "hash": "716a4692fe4af220e42c17435f4ed168b6a2f1e9e926f9b3922fe9c348c7965b"
+        }
+    },
+    "bin": "ndcli.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wolffshots/ndcli/releases/download/v$version/ndcli_v$version_windows_amd64.exe#/ndcli.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
