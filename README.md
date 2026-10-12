@@ -114,6 +114,35 @@ scoop update
 scoop update ndcli
 ```
 
+## himaplaya
+
+A Bubble Tea TUI for the himalaya mail client.
+
+### Install
+
+```powershell
+scoop bucket add wolffshots https://github.com/wolffshots/scoop-bucket
+scoop install wolffshots/himaplaya
+```
+
+This installs the prebuilt x64 release binary. himaplaya has no ARM64 Windows
+build. It needs `himalaya` v2 on the `PATH`; `scoop install himalaya` provides
+it.
+
+### Configuration
+
+himaplaya has no settings of its own. It shows the accounts of your himalaya
+configuration; set one up with `himalaya configure`. See the
+[himaplaya repository](https://github.com/wolffshots/himaplaya#accounts) for
+the account setup and the terminal requirements.
+
+### Upgrade
+
+```powershell
+scoop update
+scoop update himaplaya
+```
+
 ## How updates work
 
 Unlike the Homebrew tap, nothing here is edited by hand on release. The
