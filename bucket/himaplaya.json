@@ -1,5 +1,5 @@
 {
-    "version": "0.1.0",
+    "version": "0.2.1",
     "description": "Bubble Tea TUI for the himalaya mail client",
     "homepage": "https://github.com/wolffshots/himaplaya",
     "license": "MIT",
@@ -13,8 +13,8 @@
     "depends": "main/himalaya",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/wolffshots/himaplaya/releases/download/v0.1.0/himaplaya_v0.1.0_windows_amd64.exe#/himaplaya.exe",
-            "hash": "a66b423c8d0ca995f89fa35f651d5d17ebcd0f5bb5d16b36fa1a80d40668239e"
+            "url": "https://github.com/wolffshots/himaplaya/releases/download/v0.2.1/himaplaya_v0.2.1_windows_amd64.exe#/himaplaya.exe",
+            "hash": "1a18e7ccac64c97e876f380b4f88f7f15babeced83268a8f6011dcc22345eb2c"
         }
     },
     "bin": "himaplaya.exe",
