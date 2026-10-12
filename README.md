@@ -126,8 +126,7 @@ scoop install wolffshots/himaplaya
 ```
 
 This installs the prebuilt x64 release binary. himaplaya has no ARM64 Windows
-build. It needs `himalaya` v2 on the `PATH`; `scoop install himalaya` provides
-it.
+build. Scoop also installs `himalaya` from the `main` bucket as a dependency.
 
 ### Configuration
 

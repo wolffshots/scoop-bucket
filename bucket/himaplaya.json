@@ -10,9 +10,7 @@
         "See the README for the keys and the terminal requirements:",
         "  https://github.com/wolffshots/himaplaya#keys"
     ],
-    "suggest": {
-        "himalaya": "main/himalaya"
-    },
+    "depends": "main/himalaya",
     "architecture": {
         "64bit": {
             "url": "https://github.com/wolffshots/himaplaya/releases/download/v0.1.0/himaplaya_v0.1.0_windows_amd64.exe#/himaplaya.exe",
