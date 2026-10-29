@@ -114,32 +114,18 @@ scoop update
 scoop update ndcli
 ```
 
-## himaplaya
+## himaplaya (deprecated)
 
-A Bubble Tea TUI for the himalaya mail client.
+A Bubble Tea TUI for the himalaya mail client. The upstream repository is
+archived, so the manifest is in `deprecated/` and Scoop no longer installs it.
+`scoop status` shows an existing install as deprecated. Use
+[matcha](https://github.com/floatpane/matcha) (`scoop install main/matcha`) as
+a terminal mail client instead.
 
-### Install
-
-```powershell
-scoop bucket add wolffshots https://github.com/wolffshots/scoop-bucket
-scoop install wolffshots/himaplaya
-```
-
-This installs the prebuilt x64 release binary. himaplaya has no ARM64 Windows
-build. Scoop also installs `himalaya` from the `main` bucket as a dependency.
-
-### Configuration
-
-himaplaya has no settings of its own. It shows the accounts of your himalaya
-configuration; set one up with `himalaya configure`. See the
-[himaplaya repository](https://github.com/wolffshots/himaplaya#accounts) for
-the account setup and the terminal requirements.
-
-### Upgrade
+To remove it:
 
 ```powershell
-scoop update
-scoop update himaplaya
+scoop uninstall himaplaya
 ```
 
 ## How updates work
