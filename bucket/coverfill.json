@@ -1,0 +1,29 @@
+{
+    "version": "0.1.0",
+    "description": "Make CrossPoint e-reader sleep covers fill the screen with mirrored edges",
+    "homepage": "https://github.com/wolffshots/crosspoint-coverfill",
+    "license": "MIT",
+    "notes": [
+        "Start File Transfer on the e-reader, then do a dry run with the address it shows:",
+        "  coverfill -host <address> -n",
+        "See https://github.com/wolffshots/crosspoint-coverfill#use"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wolffshots/crosspoint-coverfill/releases/download/v0.1.0/coverfill_v0.1.0_windows_amd64.exe#/coverfill.exe",
+            "hash": "3f9e65b9b91f8b8d9f4938ea0e39ceedb76c125400e5fe35ef1059a4451f4e16"
+        }
+    },
+    "bin": "coverfill.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wolffshots/crosspoint-coverfill/releases/download/v$version/coverfill_v$version_windows_amd64.exe#/coverfill.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

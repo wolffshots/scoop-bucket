@@ -114,6 +114,36 @@ scoop update
 scoop update ndcli
 ```
 
+## coverfill
+
+Makes the book cover fill the whole sleep screen on a CrossPoint e-reader,
+such as an Xteink X4. It pads each cached sleep cover with mirrored edges over
+the File Transfer web server of the device.
+
+### Install
+
+```powershell
+scoop bucket add wolffshots https://github.com/wolffshots/scoop-bucket
+scoop install wolffshots/coverfill
+```
+
+This installs the prebuilt x64 release binary. coverfill has no ARM64 Windows
+build.
+
+### Usage
+
+Start File Transfer on the e-reader, then run `coverfill -host <address> -n`
+for a dry run. See the
+[crosspoint-coverfill repository](https://github.com/wolffshots/crosspoint-coverfill#use)
+for the full usage documentation.
+
+### Upgrade
+
+```powershell
+scoop update
+scoop update coverfill
+```
+
 ## himaplaya (deprecated)
 
 A Bubble Tea TUI for the himalaya mail client. The upstream repository is
